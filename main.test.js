@@ -8,11 +8,16 @@
 - Input Gregory should result in [2, 5]
 */
 
-import main from './main'
 import {jest} from '@jest/globals';
+import { vowelsAndConsonants } from "./main"
 import { expect, test } from '@jest/globals'
 
-test("Check if input is a string", () => {
-    let testData = true
-    
+test("Check if input is not a string", () => {
+    let testData = "HELLO"
+    console.log(typeof testData)
+    let actual = vowelsAndConsonants(testData)
+    console.log(actual)
+    let expected = null
+    expect(actual).toBe(expected)
+ 
 })

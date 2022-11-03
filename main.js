@@ -11,6 +11,8 @@ Example:
 */
 
 //👉 Write the function your CodeWarriors will start with below here:
-function vowelsAndConsonants(input) {
-    // Write your code here!
-}
+export function vowelsAndConsonants(input) {
+  if(typeof input != "string"){
+    return null
+  }
+};
