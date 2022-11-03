@@ -5,14 +5,16 @@ Takes in a string and returns the amount of vowels and consonants, in that order
 
 If the value passed is not a string, return null.
 
-Example:
+Example1:
   input: Chris
   output: [1, 4]
+
+Example2:
+  input: Hieroglyphs
+  output: [3, 8]
 */
 
 //👉 Write the function your CodeWarriors will start with below here:
 export function vowelsAndConsonants(input) {
-  if(typeof input != "string"){
-    return null
-  }
+  // Write your code here!
 };
